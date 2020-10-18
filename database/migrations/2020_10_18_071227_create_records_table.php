@@ -30,12 +30,12 @@ class CreateRecordsTable extends Migration
             $table->string('identycardno')->nullable();
             $table->enum('cityzenshipoption', ['Y', 'N'])->default('N');
             $table->string('cityzenshipno')->nullable();
-            $table->string('familyno');
+            $table->string('familyno')->nullable();
             $table->enum('otherdisableinfamilyoption', ['Y', 'N'])->default('N')->nullable();
             $table->integer('otherdisableinfamilyno')->nullable();
-            $table->string('gname');
-            $table->string('relation');
-            $table->integer('contactnumber')->nullable();;
+            $table->string('gname')->nullable();
+            $table->string('relation')->nullable();
+            $table->integer('contactnumber')->nullable();
             $table->string('education');
             $table->enum('trainingoption', ['Y', 'N'])->default('N');
             $table->string('whattraining')->nullable();
@@ -45,9 +45,8 @@ class CreateRecordsTable extends Migration
             $table->text('effectonbusiness')->nullable();
             $table->text('businessstatus')->nullable();
             $table->text('remark')->nullable();
-            $table->possiable('possiable')->nullable();
             $table->integer('idcard')->nullable();
-            $table->file('photo');
+            $table->string('photo')->nullable();
             $table->integer('fcontactno')->nullable();
             $table->timestamps();
         });
