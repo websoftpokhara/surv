@@ -11,6 +11,9 @@ class SiteController extends Controller
     public function getHome(){
     	return view('welcome');
     }
+    public function getForm(){
+    	return view('form');
+    }
 
     public function postAddRecord(Request $request){
     	$fullname = $request->input('fullname');

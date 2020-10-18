@@ -14,7 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [App\Http\Controllers\SiteController::class, 'getHome'])->name('getHome');
-Route::post('/', [App\Http\Controllers\SiteController::class, 'postAddRecord'])->name('postAddRecord');
+Route::post('/form', [App\Http\Controllers\SiteController::class, 'postAddRecord'])->name('postAddRecord');
+Route::get('/form', [App\Http\Controllers\SiteController::class, 'getForm'])->name('getForm');
 Route::get('/language/{language}', [App\Http\Controllers\SiteController::class, 'getLanguage'])->name('getLanguage');
 
 Auth::routes();
