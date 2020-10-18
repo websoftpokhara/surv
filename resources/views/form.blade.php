@@ -792,16 +792,21 @@
 
                                         <hr />
                                     </div>
-                                    <div class="form-group">
-                                        <h6>फोटो</h6>
-                                        <input type="file" name="photo" class="form-control" placeholder="photo">
-                                    </div>
-                                    <div class="form-group">
-                                        <h6>पुरा नाम*</h6>
-                                        <input type="text" name="fullname" class="form-control" placeholder="उत्तरदाताको पुरा नाम *" required>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <h6>फोटो</h6>
+                                                <input type="file" name="photo" class="form-control" placeholder="photo">
+                                            </div>
+                                        </div>
                                     </div>
                                     <div class="row">
-                                        
+                                        <div class="col-md-8">
+                                            <h6>पुरा नाम*</h6>
+                                            <div class="form-group">
+                                                <input type="text" name="fullname" class="form-control" placeholder="उत्तरदाताको पुरा नाम *" required>
+                                            </div>
+                                        </div>
                                         <div class="col-md-4">
                                             <h6>प्रदेश*</h6>
                                             <div class="form-group">
@@ -812,7 +817,9 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-md-8">
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-4">
                                             <h6>जिल्ला*</h6>
                                             <div class="form-group">
                                                 <div class="clearfix">
@@ -820,12 +827,9 @@
                                                         <option value="">जिल्ला छान्नुहोस् </option>
                                                     </select>
                                                 </div>
-                                                
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-8">
+                                        <div class="col-md-4">
                                             <h6>न.पा/गा.पा.*</h6>
                                             <div class="form-group">
                                                 <div class="clearfix">
@@ -835,8 +839,6 @@
                                                 </div>
                                             </div>
                                         </div>
-
-                                        
                                         <div class="col-md-4">
                                             <h6>वडा नं.*</h6>
                                             <div class="form-group">
@@ -857,41 +859,23 @@
                                                         <option value="14">१४</option>
                                                         <option value="15">१५</option>
                                                         <option value="16">१६</option>
-
                                                         <option value="17">१७</option>
-
                                                         <option value="18">१८</option>
-
                                                         <option value="19">१९</option>
-
                                                         <option value="20">२०</option>
-
                                                         <option value="21">२१</option>
-
                                                         <option value="22">२२</option>
-
                                                         <option value="23">२३</option>
-
                                                         <option value="24">२४</option>
-
                                                         <option value="25">२५</option>
-
                                                         <option value="26">२६</option>
-
                                                         <option value="27">२७</option>
-
                                                         <option value="28">२८</option>
-
                                                         <option value="29">२९</option>
-
                                                         <option value="30">३०</option>
-
                                                         <option value="31">३१</option>
-
                                                         <option value="32">३२</option>
-
                                                         <option value="33">३३</option>
-
                                                         <option value="34">३४</option>
                                                 </select>
                                             </div>
@@ -917,8 +901,6 @@
                                                  <h6>उमेर*</h6>
                                                 <select type="number"  x-webkit-speech name="age" class="form-control" placeholder="बर्ष" >
                                                     <option value="">उमेर</option>
-
-
                                                     <option value="5">५ बर्ष मुनि </option>
                                                     <option value="5">५ </option>
                                                     <option value="6">६ </option>
@@ -929,71 +911,49 @@
                                                     <option value="11">११</option>
                                                     <option value="12">१२</option>
                                                     <option value="13">१३</option>
-                                                     <option value="14">१४</option>
-                                                     
-                                                        <option value="15"> १५</option>
-
-                                                        <option value="16">१६</option>
-
-                                                        <option value="17">१७</option>
-
-                                                       <option value="18">१८</option>
-
-                                                        <option value="19">१९</option>
-
-                                                        <option value="20">२०</option>
-
-                                                        <option value="21">२१</option>
-
-                                                        <option value="22">२२</option>
-
-                                                        <option value="23">२३</option>
-
-                                                        <option value="24">२४</option>
-
-                                                        <option value="25">२५</option>
-
-                                                        <option value="26">२६</option>
-
-                                                        <option value="27">२७</option>
-
-                                                        <option value="28">२८</option>
-
-                                                        <option value="29">२९</option>
-
-                                                        <option value="30">३०</option>
-
-                                                        <option value="31">३१</option>
-
-                                                        <option value="32">३२</option>
-
-                                                        <option value="33">३३</option>
-
-                                                        <option value="34">३४</option>
-                                                        <option value="35">३५</option>       
-                                                        <option value="36">३६</option> 
-                                                        <option value="37">३७</option>  
-                                                        <option value="38">३८ </option>  
-                                                        <option value="39"> ३९</option>       
-                                                        <option value="40"> ४०</option>       
-                                                        <option value="41"> ४१ </option>      
-                                                        <option value="42">४२ </option>      
-                                                        <option value="43"> ४३</option>       
-                                                        <option value="44"> ४४</option>       
-                                                        <option value="45"> ४५</option>       
-                                                        <option value="46"> ४६</option>       
-                                                        <option value="47"> ४७ </option> 
-                                                        <option value="48"> ४८</option>       
-                                                        <option value="49"> ४९</option>       
-                                                        <option value="50">५०</option>
-                                                        <option value="51"> ५१ </option>
-                                                        <option value="52"> ५२ </option>
-                                                        <option value="53"> ५३ </option>
-                                                        <option value="54"> ५४ </option>
-                                                        <option value="55">५५ </option>
-                                                        <option value="55">५५ बर्ष माथि </option>
-
-
+                                                    <option value="14">१४</option>
+                                                    <option value="15"> १५</option>
+                                                    <option value="16">१६</option>
+                                                    <option value="17">१७</option>
+                                                    <option value="18">१८</option>
+                                                    <option value="19">१९</option>
+                                                    <option value="20">२०</option>
+                                                    <option value="21">२१</option>
+                                                    <option value="22">२२</option>
+                                                    <option value="23">२३</option>
+                                                    <option value="24">२४</option>
+                                                    <option value="25">२५</option>
+                                                    <option value="26">२६</option>
+                                                    <option value="27">२७</option>
+                                                    <option value="28">२८</option>
+                                                    <option value="29">२९</option>
+                                                    <option value="30">३०</option>
+                                                    <option value="31">३१</option>
+                                                    <option value="32">३२</option>
+                                                    <option value="33">३३</option>
+                                                    <option value="34">३४</option>
+                                                    <option value="35">३५</option>       
+                                                    <option value="36">३६</option> 
+                                                    <option value="37">३७</option>  
+                                                    <option value="38">३८ </option>  
+                                                    <option value="39"> ३९</option>       
+                                                    <option value="40"> ४०</option>       
+                                                    <option value="41"> ४१ </option>      
+                                                    <option value="42">४२ </option>      
+                                                    <option value="43"> ४३</option>       
+                                                    <option value="44"> ४४</option>       
+                                                    <option value="45"> ४५</option>       
+                                                    <option value="46"> ४६</option>       
+                                                    <option value="47"> ४७ </option> 
+                                                    <option value="48"> ४८</option>       
+                                                    <option value="49"> ४९</option>       
+                                                    <option value="50">५०</option>
+                                                    <option value="51"> ५१ </option>
+                                                    <option value="52"> ५२ </option>
+                                                    <option value="53"> ५३ </option>
+                                                    <option value="54"> ५४ </option>
+                                                    <option value="55">५५ </option>
+                                                    <option value="55">५५ बर्ष माथि </option>
                                                 </select>
                                             </div>
                                         </div>
@@ -1029,9 +989,6 @@
                                     </div>
                                 </div>
                                 <!-- /step-->
-                               
-
-
                                 <div class="step">
                                      <h3 class="main_question"><strong>2/5</strong></h3>
                                      <div class="col-md-12">
@@ -1606,8 +1563,6 @@
                                             <input  type="text" name="fbid" class="form-control" placeholder="Facebook Id" >
                                         </div>
                                     </div>
-
-
                                     <div class="col-md-6">
                                         <div class="form-group">
                                             <h6>Gender*</h6>
@@ -1620,8 +1575,7 @@
                                             </div>
                                         </div>
                                     </div>
-
-                                    </div>
+                                </div>
                             </div>
                             <div class="step">
                                 <h3 class="main_question"><strong>2/5</strong></h3>
@@ -1662,9 +1616,6 @@
                                                 <input type="integer" name="idcard" class="form-control" placeholder="Your Identity Card Number">            
                                             </div>
                                         </div>
-                                    
-
-                                    
                                 </div>
                                 <h5>Type of Disability</h5>
                                 <div class="row">
@@ -1795,7 +1746,6 @@
                                                     <option value="4">4</option>
                                                     <option value="5">5</option>
                                                     <option value="6">6+</option>
-                                                    
                                             </select>
                                         </div>
                                     </div>
@@ -1805,7 +1755,6 @@
                                                 <input class="other_disable_in_family_yes" type="checkbox" name="otherdisableinfamilyoption" value="Y"/> Any family member disability?
                                                 <span class="checkmark"></span>
                                             </label>
-
                                         </div>
                                     </div>
                                 </div>
@@ -1820,7 +1769,6 @@
                                                     <option value="4">4</option>
                                                     <option value="5">5</option>
                                                     <option value="6">6+</option>
-                                                    
                                             </select>
                                         </div>
                                     </div>
@@ -1828,8 +1776,8 @@
                                 <div class="row">
                                     <div class="col-md-12">
                                         <div class="form-group">
-                                            <!-- <h6>Supporter</h6> -->
-                                            <input type="text" name="gname" class="form-control" placeholder="Supporter" >
+                                            <h6>Supporter</h6>
+                                            <input type="text" name="gname" class="form-control" placeholder="Supporter">
                                         </div>
                                     </div>
                                 </div>
@@ -1837,7 +1785,7 @@
                                     <div class="col-md-6">
                                         <div class="form-group">
                                             <h6>Relation</h6>
-                                            <select type="text" name="relation" class="form-control" placeholder="Relation" >
+                                            <select type="text" name="relation" class="form-control" placeholder="Relation">
                                                     <option value="">Relation</option>
                                                     <option value="Amaa">Mother</option>
                                                     <option value="2">Father</option>
